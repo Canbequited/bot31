@@ -20,7 +20,7 @@ import { joinVoiceChannel, VoiceConnectionStatus, entersState } from '@discordjs
 dotenv.config();
 
 // HTTP server port
-const PORT = process.env.PORT ? parseInt(process.env.PORT) : 3000;
+const PORT = process.env.PORT ? parseInt(process.env.PORT) : 80;
 
 console.log('Starting bot...');
 
