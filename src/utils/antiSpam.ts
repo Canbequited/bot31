@@ -15,7 +15,7 @@ const userMap = new Collection<string, UserSpamData>();
 // Ayarlar
 const THRESHOLD = 8; // 10 mesaj
 const TIME_WINDOW = 5000; // 5 saniye içinde
-const TIMEOUT_DURATION = 600; // 20 saniye timeout
+const TIMEOUT_DURATION = 600; // 10 dakika timeout
 
 /**
  * Gelen mesajları spam için kontrol eder
