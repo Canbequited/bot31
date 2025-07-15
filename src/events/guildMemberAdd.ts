@@ -11,7 +11,7 @@ export default {
             if (welcomeChannelId) {
                 const channel = guild.channels.cache.get(welcomeChannelId) as TextChannel;
                 if (channel && channel.type === 0) {
-                    await channel.send({ content: `${member} sunucuya katıldı, hoş geldin!` });
+                    await channel.send({ content: `${member} has joined the server. Welcome!` });
                 }
             }
             const memberRoleId = process.env.MEMBER_ROLE_ID;
