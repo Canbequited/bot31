@@ -32,7 +32,7 @@ export default {
             if (welcomeChannelId) {
                 const channel = guild.channels.cache.get(welcomeChannelId) as TextChannel;
                 if (channel && channel.type === 0) {
-                    await channel.send({ content: `${member} sunucudan ayrıldı, güle güle!` });
+                    await channel.send({ content: `${member} has left the server. Goodbye!` });
                 }
             }
         } catch (err) {
